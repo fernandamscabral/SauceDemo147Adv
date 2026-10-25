@@ -1,0 +1,29 @@
+{
+  "name": "saucedemo147adv",
+  "version": "1.0.0",
+  "description": "Advanced E2E test automation for SauceDemo using Playwright with BDD (Gherkin/Cucumber) and the Page Object Model. Individual QA training assignment at Iterasys (class 147).",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:paralelo": "cucumber-js -p paralelo",
+    "test:headed": "cross-env HEADLESS=false npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandamscabral/SauceDemo147Adv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://github.com/fernandamscabral/SauceDemo147Adv#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "cross-env": "^10.1.0",
+    "cucumber-html-reporter": "^7.2.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0"
+  }
+}
